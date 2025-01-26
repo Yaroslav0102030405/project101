@@ -5,9 +5,10 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "homepage": "https://yaroslav0102030405.github.io/project101",
+  "main": "app.js",
   "scripts": {
     "start": "parcel src/index.html --lazy",
-    "build": "parcel build src/index.html --public-url",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -31,6 +32,5 @@
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"
-  },
-  "default": "index.html"
+  }
 }
