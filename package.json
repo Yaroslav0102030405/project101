@@ -7,10 +7,14 @@
   "homepage": "https://yaroslav0102030405.github.io/project101",
   "scripts": {
     "start": "parcel src/index.html --lazy",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yaroslav0102030405.github.io/project101"
   },
   "keywords": [],
   "author": "",
