@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://yaroslav0102030405.github.io/project101"
+    "publicUrl": "git+https://yaroslav0102030405.github.io/project101"
   },
   "keywords": [],
   "author": "",
