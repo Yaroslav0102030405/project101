@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "git+https://yaroslav0102030405.github.io/project101 -d build"
   },
   "keywords": [],
   "author": "",
