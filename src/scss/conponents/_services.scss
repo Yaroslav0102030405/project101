@@ -1,0 +1,122 @@
+.service {
+  @extend %section-padding;
+  background-color: $bg-2;
+}
+
+.service__title {
+  @extend %title;
+}
+
+.service__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+
+  @media screen and (max-width: 769px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service__item {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto 1fr;
+  padding: 15px;
+  height: 100%;
+  background-color: #454d71;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  border: 1px solid $bg-color;
+  transition: border 250ms linear;
+}
+
+.service__item:hover,
+.service__item:focus {
+  border: 1px solid $text-color;
+}
+
+.service__pre-title {
+  padding-top: 10px;
+  color: $accent-text;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.service__description {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__price {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__price-1 {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__price-2 {
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__button {
+  @extend %button;
+  @extend %margin;
+}
+
+.service__button:hover,
+.service__hover:focus {
+  @extend %button__hover;
+}
+
+// @property --angle {
+//   syntax: '<angle>';
+//   initial-value: 0deg;
+//   inherits: false;
+// }
+
+// .service__item::after,
+// .service__item::before {
+//   content: '';
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   background-image: conic-gradient(
+//     from var(--angle),
+//     #ff4545,
+//     #00ff99,
+//     #006aff,
+//     #ff0095,
+//     #ff4545
+//   );
+//   top: 50%;
+//   left: 50%;
+//   translate: -50% -50%;
+//   z-index: -1;
+//   padding: 3px;
+//   border-radius: 10px;
+//   animation: 3s spin linear infinite;
+// }
+// .service__list::before {
+//   filter: blur(1.5rem);
+//   opacity: 0.5;
+// }
+// @keyframes spin {
+//   from {
+//     --angle: 0deg;
+//   }
+//   to {
+//     --angle: 360deg;
+//   }
+// }

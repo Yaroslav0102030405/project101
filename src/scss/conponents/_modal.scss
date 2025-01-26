@@ -1,0 +1,136 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // #e4c9a2
+  background-color: #e4c9a200;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 21;
+  transition: opacity 250ms linear;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // translate: -50% -50%;
+  // min-width: 200px;
+  padding: 15px;
+  background-color: $bg-2;
+  z-index: 999;
+  border-radius: 6px;
+  border: 4px solid $accent-text;
+  // box-shadow: 1px 0 10px #fc0;
+}
+// #806a6a
+
+.modal__title {
+  font-size: 30px;
+  color: $accent-text;
+  text-align: center;
+}
+
+.modal__menu-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal__btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: $accent-text;
+  border-radius: 6px;
+  border: none;
+  color: $bg-color;
+  cursor: url('image/cursor/cursor-2.png'), auto;
+  transition: background-color 250ms linear;
+}
+
+.modal__btn:hover,
+.modal__btn:focus {
+  // background-color: bisque;
+  background-color: $text-color;
+  transform: translateY(-2px);
+  box-shadow: 1px 0 10px #fc0;
+}
+
+.m {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+// animate
+// @property --angle {
+//   syntax: '<angle>';
+//   initial-value: 0deg;
+//   inherits: false;
+// }
+
+// .m::after,
+// .m::before {
+//   content: '';
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   // background-image: conic-gradient(from var(--angle), #806a6a, $bg-color);
+//   background-image: conic-gradient(
+//     from var(--angle),
+//     #ff4545,
+//     #00ff99,
+//     #006aff,
+//     #ff0095,
+//     #ff4545
+//   );
+//   top: 50%;
+//   left: 50%;
+//   translate: -50% -50%;
+//   z-index: -1;
+//   padding: 3px;
+//   border-radius: 6px;
+//   animation: 3s spin linear infinite;
+// }
+// .m::before {
+//   filter: blur(1.5rem);
+//   opacity: 0.5;
+// }
+// @keyframes spin {
+//   from {
+//     --angle: 0deg;
+//   }
+//   to {
+//     --angle: 360deg;
+//   }
+// }
+
+.form__none2 {
+  display: none;
+}
+
+.form_answer2 {
+  display: none;
+}
+
+.form_answer-block2 {
+  display: block;
+  margin-top: 25px;
+}
+
+.form__answer-text2 {
+  color: $bg-color;
+  font-size: 20px;
+  @media screen and (max-width: 580px) {
+    font-size: 14px;
+  }
+}

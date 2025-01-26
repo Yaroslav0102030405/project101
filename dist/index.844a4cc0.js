@@ -1,0 +1,2 @@
+window.addEventListener("scroll",()=>{let e=window.scrollY;document.querySelectorAll(".scroll").forEach((l,c)=>{l.offsetTop-document.querySelector(".nav").clientHeight<=e&&(document.querySelectorAll(".nav a").forEach(e=>{e.classList.contains("active")&&e.classList.remove("active")}),document.querySelectorAll(".nav li")[c].querySelector("a").classList.add("active"))})});
+//# sourceMappingURL=index.844a4cc0.js.map

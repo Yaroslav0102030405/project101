@@ -1,0 +1,28 @@
+/* add scrollbar */
+.window {
+  overflow: auto;
+  border: 1px solid #fff;
+  border-radius: 5px 0 0 5px;
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: $bg-color;
+}
+
+/* скрыть заголовки и части текста */
+// .visually-hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+//   clip: rect(0 0 0 0);
+//   overflow: hidden;
+// }
