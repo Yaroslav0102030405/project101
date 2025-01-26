@@ -5,15 +5,15 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel src/*index.html --lazy",
-    "build": "parcel build src/*index.html --public-url /project101/",
+    "start": "parcel src/index.html --lazy",
+    "build": "parcel build src/index.html --public-url /project101/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://yaroslav0102030405.github.io/project101"
+    "url": "git+https://github.com/Yaroslav0102030405"
   },
   "keywords": [],
   "author": "",
