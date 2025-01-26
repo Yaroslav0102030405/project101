@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "parcel build src/index.html"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -27,5 +27,5 @@
   "dependencies": {
     "modern-normalize": "^3.0.1"
   },
-  "main": "index.js"
+  "default": "index.html"
 }
