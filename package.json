@@ -1,5 +1,5 @@
 {
-  "name": "freelance-project-1",
+  "name": "project101",
   "version": "1.0.0",
   "description": "<!-- npm init - створює файл package.json -->\r <!-- pattern=\"[A-Za-zА-Яа-яЁё]{1,15}\" -->",
   "source": "src/index.html",
@@ -7,8 +7,6 @@
   "scripts": {
     "start": "parcel src/index.html --lazy",
     "build": "parcel build src/index.html --public-url /project101/",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
