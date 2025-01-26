@@ -4,7 +4,6 @@
   "description": "<!-- npm init - створює файл package.json -->\r <!-- pattern=\"[A-Za-zА-Яа-яЁё]{1,15}\" -->",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "https://yaroslav0102030405.github.io",
   "scripts": {
     "start": "parcel src/index.html --lazy",
     "build": "parcel build src/index.html --public-url ./",
