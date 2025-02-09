@@ -4,10 +4,10 @@
   "description": "<!-- npm init - створює файл package.json -->\r <!-- pattern=\"[A-Za-zА-Яа-яЁё]{1,15}\" -->",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
-  "homepage": "https://yaroslav0102030405.github.io/project101/",
+  "homepage": "https://yaroslav0102030405.github.io/project101/src/",
   "scripts": {
     "start": "parcel src/index.html --lazy",
-    "build": "parcel build --public-url url",
+    "build": "parcel build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
