@@ -1,12 +1,11 @@
 {
   "name": "project101",
   "version": "1.0.0",
-  "description": "<!-- npm init - створює файл package.json -->\r <!-- pattern=\"[A-Za-zА-Яа-яЁё]{1,15}\" -->",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/*.html --lazy",
-    "build": "parcel build src/*.html --public-url /project101"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /project101/"
   },
   "repository": {
     "type": "git",
