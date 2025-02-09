@@ -4,11 +4,14 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
   "targets": {
-    "main": false
+    "main": false,
+    "default": {
+      "distDir": "./project101"
+    }
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /project101/"
+    "build": "parcel build src/index.html --dist-dir /project101/ "
   },
   "repository": {
     "type": "git",
