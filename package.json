@@ -6,11 +6,11 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --lazy",
-    "build": "parcel build"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "https://yaroslav0102030405/project101/src/"
+    "url": "https://yaroslav0102030405/project101/"
   },
   "keywords": [],
   "author": "",
