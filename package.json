@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
+  "targets": {
+    "main": false
+  },
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project101/"
+    "start": "parcel",
+    "build": "parcel build --public-url /project101/"
   },
   "repository": {
     "type": "git",
