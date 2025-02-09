@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel ./src/*.html --lazy",
-    "build": "parcel build ./src/*.html --public-url /project101/"
+    "build": "parcel build ./src/*.html --public-url url"
   },
   "repository": {
     "type": "git",
