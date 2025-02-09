@@ -5,11 +5,11 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel src/*.html --lazy",
-    "build": "parcel build src/*.html --public-url /project101/"
+    "build": "parcel build src/*.html --public-url url"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yaroslav0102030405"
+    "url": "git+https://github.com/Yaroslav0102030405/project101/"
   },
   "keywords": [],
   "author": "",
