@@ -9,12 +9,12 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /project101/src/",
+    "build": "parcel build src/index.html --public-url /project101/",
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaroslav0102030405.git"
+    "url": "git+https://github.com/yaroslav0102030405/project101/.git"
   },
   "keywords": [],
   "author": "",
