@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /project101/",
+    "build": "parcel build src/index.html --public-url /project101/src/",
     "deploy": "gh-pages -d build"
   },
   "repository": {
