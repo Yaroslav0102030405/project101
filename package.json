@@ -12,10 +12,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yaroslav0102030405/project101/.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
