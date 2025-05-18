@@ -2,7 +2,7 @@
   "name": "project101",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "https://yaroslav0102030405.github.io/project101/",
+  "homepage": "https://yaroslav0102030405.github.io/project101/dist",
   "targets": {
     "main": false
   },
