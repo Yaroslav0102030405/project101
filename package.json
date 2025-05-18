@@ -2,14 +2,13 @@
   "name": "project101",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "src/index.html",
   "homepage": "https://yaroslav0102030405.github.io/project101/",
   "targets": {
     "main": false
   },
   "scripts": {
-    "start": "parcel project101/src/index.html",
-    "build": "parcel build project101/src/index.html",
+    "start": "parcel",
+    "build": "parcel build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
