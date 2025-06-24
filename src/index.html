@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#3e4464" />
+    <!-- <meta name="theme-color" content="#3e4464" /> -->
+      <meta name="theme-color" content="#3e4464"> <meta name="apple-mobile-web-app-status-bar-style" content="default"> 
     <!-- <meta name="theme-color" content="#4285f4" /> -->
     <!-- Windows Phone -->
     <meta name="msapplication-navbutton-color" content="#3e4464" />
@@ -14,6 +15,7 @@
       name="google-site-verification"
       content="Y4qqKCkswsV6CBavIp_taWBOEoEBc_ND_lCySgV-mgw"
     />
+    <link rel="manifest" href="./manifest.json">
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -936,7 +938,7 @@
       //   btn.play();
       // });
     </script> -->
-     <audio id="mouseClickAudio" src="./audio/audio-2.mp3" preload="auto"></audio>
+     <audio id="mouseClickAudio" src="./audio/click.mp3" preload="auto"></audio>
     <script>
         const mouseclick = document.getElementById('mouseClickAudio');
         const soundButtons = document.querySelectorAll('.js-play-sound');

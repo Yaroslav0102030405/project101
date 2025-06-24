@@ -519,10 +519,6 @@ img {
   box-shadow: 0 3px 8px #0000003d;
 }
 
-.service__item:hover, .service__item:focus {
-  border: 1px solid #f8f9ff;
-}
-
 .service__pre-title {
   color: #e4c9a2;
   text-transform: uppercase;
@@ -561,9 +557,11 @@ img {
   background-color: #454d71;
   border: 1px solid #3e4464;
   border-radius: 6px;
+  align-items: center;
   width: 31.7%;
-  padding: 15px;
+  padding: 30px;
   transition: border .25s linear;
+  display: flex;
   box-shadow: 0 3px 8px #0000003d;
 }
 
@@ -586,10 +584,6 @@ img {
   }
 }
 
-.advantages__item:hover, .advantages__item:focus {
-  border: 1px solid #e4c9a2;
-}
-
 .advantages__image {
   margin-bottom: 30px;
   margin-left: auto;
@@ -604,8 +598,10 @@ img {
 }
 
 .advantages__text {
+  text-align: left;
   color: #f8f9ff;
   margin-bottom: 0;
+  margin-left: 20px;
   font-size: clamp(14px, 4.25vw, 20px);
   font-weight: 700;
   transition: color .25s linear;
