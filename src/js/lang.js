@@ -74,7 +74,7 @@ const homeTexts = {
   //   en: 'Commercial real estate broker in Warsaw',
   // },
   'header_banner-pre-title': {
-    ua: 'Оренда офісів, комерційної нерухомості у Варшаві',
+    ua: 'Оренда комерційної нерухомості у Варшаві',
     ru: 'Аренда офисов, коммерческой недвижимости в Варшаве',
     pl: 'Wynajem Biur, nieruchomości komercyjnych w Warszawie',
     en: 'Renting of Office space, commercial real estate in Warsaw',
