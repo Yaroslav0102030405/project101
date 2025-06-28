@@ -23,12 +23,12 @@
   display: flex;
   align-items: center;
   width: 31.7%;
-  padding: 30px;
+  padding: 29px;
   background-color: #454d71;
   border-radius: 6px;
-  box-shadow: 0 3px 8px #0000003d;
+  // box-shadow: 0 3px 8px #0000003d;
   text-align: center;
-  border: 1px solid $bg-color;
+  border: 1px solid $text-color;
   transition: border 250ms linear;
 
   @media screen and (max-width: 1263px) {
@@ -41,7 +41,7 @@
 
   @media screen and (max-width: 580px) {
     width: 100%;
-    padding: 10px;
+    padding: 17px;
   }
 }
 
@@ -78,5 +78,11 @@
   margin-bottom: 0;
   font-size: 75px;
   font-weight: 900;
+}
+
+.d {
+  border: none;
+padding: 18px;
+width: 70px;
 }
 

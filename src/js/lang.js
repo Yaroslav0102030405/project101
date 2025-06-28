@@ -31,6 +31,12 @@ const homeTexts = {
   //   pl: 'Yurii Bukhtii',
   //   en: 'Yurii Bukhtii',
   // },
+  'portfolio-title': {
+    ua: 'Моє портфоліо',
+    ru: 'Мое портфолио',
+    pl: 'My portfolio',
+    en: 'Moje portfolio',
+  },
   'header_menu-home': {
     ua: 'Головна',
     ru: 'Главная',
@@ -74,8 +80,8 @@ const homeTexts = {
   //   en: 'Commercial real estate broker in Warsaw',
   // },
   'header_banner-pre-title': {
-    ua: 'Оренда комерційної нерухомості у Варшаві',
-    ru: 'Аренда офисов, коммерческой недвижимости в Варшаве',
+    ua: 'Ріелтор комерційної нерухомості у Варшаві',
+    ru: 'Риэлтор коммерческой недвижимости в Варшаве',
     pl: 'Wynajem Biur, nieruchomości komercyjnych w Warszawie',
     en: 'Renting of Office space, commercial real estate in Warsaw',
   },
@@ -98,19 +104,19 @@ const homeTexts = {
   //   en: '✓ assistance with company registration',
   // },
   'header_banner-button': {
-    ua: 'Залишити заявку',
+    ua: 'Безкоштовна консультація',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
     en: 'Send an enquiry',
   },
   'header_banner-link': {
-    ua: 'Подзвонити',
+    ua: 'Або зателефонувати за номером +48 570 804 478',
     ru: 'Позвонить',
     pl: 'Zadzwonić',
     en: 'Call',
   },
   service_title: {
-    ua: 'Я займаюсь пошуком найкращих варіантів оренди офісів',
+    ua: 'Мої послуги',
     ru: 'Я занимаюсь поиском лучших вариантов аренды офисов',
     pl: 'Szukam najlepszych opcji wynajmu biur',
     en: 'I find the most suitable office rental offers',
@@ -248,8 +254,8 @@ const homeTexts = {
     en: 'Call',
   },
   advantages_title: {
-    ua: '5 причин співпрацювати зі мною',
-    ru: '5 причин сотрудничать со мной',
+    ua: 'Переваги співпраці зі мною',
+    ru: 'Преимущества сотрудничать со мной',
     pl: '5 powodów, dla których warto ze mną współpracować',
     en: '5 reasons to contact me',
   },
@@ -284,7 +290,7 @@ const homeTexts = {
     en: 'I have the largest base of office space and warehouses in Warsaw',
   },
   about_title: {
-    ua: 'Я професіонал і вмію знаходити ідеальну локалізацію',
+    ua: 'Про мене',
     ru: 'Я профессионал и умею находить идеальный вариант',
     pl: 'Jestem profesjonalistą i potrafię znaleźć idealną lokalizację',
     en: 'I am a professional and know how to find the perfect location',
@@ -338,19 +344,19 @@ const homeTexts = {
     en: 'I am ready to help you find your perfect location.',
   },
   contacts_title: {
-    ua: 'Дзвоніть, пишіть або залишайте заявку',
+    ua: 'Безкоштовна консультація',
     ru: 'Звоните, пишите или оставляйте заявку',
     pl: 'Państwo mogą zadzwonić, napisać lub wysłać zapytanie do mnie',
     en: 'You can call, or send your questions to me',
   },
   contacts_logo: {
-    ua: 'Я безкоштовно знайду для Вас офіс в будь-якому районі Варшави. Телефонуйте чи заповнюйте форму обратнього зв`язку або пишіть в телеграм.',
+    ua: 'Я знайду для Вас офіс в будь-якому районі Варшави',
     ru: 'Я бесплатно найду для вас офис в любом районе Варшавы. Звоните или заполняйте форму обратной связи или пишите в телеграммы.',
     pl: 'Za darmo znajdę dla Ciebie biuro w każdej dzielnicy Warszawy. Zadzwoń lub wypełnij formularz kontaktowy lub napisz do mnie na telegram.',
     en: 'I will find an office space for you for free in any district of Warsaw. Call or fill out the feedback form or write to me via Telegram.',
   },
   form_title: {
-    ua: 'Залишити заявку',
+    ua: 'Залиште свої контактні дані, і ми зв`яжемося з вами',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
     en: 'Send an enquiry',
@@ -380,7 +386,7 @@ const homeTexts = {
     en: 'Send an enquiry',
   },
   form_title2: {
-    ua: 'Залишити заявку',
+    ua: 'Залиште свої контактні дані, і ми зв`яжемося з вами',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
     en: 'Send an enquiry',

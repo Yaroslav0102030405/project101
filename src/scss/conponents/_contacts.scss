@@ -76,7 +76,7 @@
   color: $bg-color;
   text-align: center;
   // font-size: 23px;
-  font-size: clamp(18px, 5.25vw, 23px);
+  font-size: clamp(16px, 5.25vw, 19px);
 }
 
 .form__1-input {
@@ -154,6 +154,7 @@ textarea:focus:valid {
   border-radius: 6px;
   box-shadow: 0 3px 8px #0000003d;
   font-size: clamp(14px, 4.25vw, 20px);
+  border:  1px solid $text-color;
   // @media screen and (max-width: 580px) {
   //   font-size: 14px;
   // }
