@@ -110,10 +110,10 @@ const homeTexts = {
     en: 'Send an enquiry',
   },
   'header_banner-link': {
-    ua: 'Або зателефонувати за номером +48 570 804 478',
-    ru: 'Позвонить',
-    pl: 'Zadzwonić',
-    en: 'Call',
+    ua: 'Або зателефонувати за номером +48 735 775 810',
+    ru: 'Или позвонить по номеру +48 735 775 810',
+    pl: 'Lub zadzwoń +48 735 775 810',
+    en: 'Or call +48 735 775 810',
   },
   service_title: {
     ua: 'Мої послуги',
