@@ -1,3 +1,14 @@
+// @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@font-face {
+  font-family: "Bicubik";
+  src: url("./fonts/bicubik/bicubik.woff2") format("woff2");
+  src: url("./fonts/bicubik/bicubik.woff") format("woff");
+  src: url("./fonts/bicubik/bicubik.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 @import '/node_modules/modern-normalize/modern-normalize.css';
 
 .my-slider-progress {
