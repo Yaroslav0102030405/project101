@@ -18,7 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.15.4",
-    "@parcel/transformer-sass": "^2.15.4",
+   "sass": "latest",
+       "@parcel/transformer-sass": "latest",
     "@parcel/transformer-webmanifest": "^2.15.4",
     "buffer": "^6.0.3",
     "gh-pages": "^6.3.0",
