@@ -17,15 +17,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.15.4",
-   "sass": "latest",
-       "@parcel/transformer-sass": "latest",
+    "@parcel/transformer-sass": "^2.15.4",
     "@parcel/transformer-webmanifest": "^2.15.4",
     "buffer": "^6.0.3",
     "gh-pages": "^6.3.0",
     "parcel": "^2.15.4",
     "process": "^0.11.10",
     "rimraf": "^6.0.1",
+    "sass": "^1.89.2",
     "sharp": "^0.33.5",
     "svgo": "^3.3.2"
   },
