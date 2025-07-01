@@ -128,10 +128,10 @@ const homeTexts = {
     en: '- Rent of premises for a shop, cafe, restaurant, shawarma, pizzeria',
   },
   'service_description-1': {
-    ua: 'Шукаєте ідеальне місце для відкриття магазину, кафе, ресторану, шаурми чи піцерії у Варшаві? Я пропоную широкий вибір комерційних приміщень, що відповідають потребам вашого бізнесу. Незалежно від того, чи ви плануєте запуск нового проекту, чи розширюєте існуючий, у нас є пропозиції, що допоможуть вам досягти успіху.',
-    ru: 'Ищете идеальное место для открытия магазина, кафе, ресторана, шаурмы или пиццерии в Варшаве? Я предлагаю широкий выбор коммерческих помещений, отвечающих потребностям вашего бизнеса. Независимо от того, планируете ли вы запуск нового проекта или расширяете существующий, у нас есть предложения, которые помогут вам добиться успеха.',
-    pl: 'Szukasz idealnego miejsca na otwarcie sklepu, kawiarni, restauracji, shawarmy lub pizzerii w Warszawie? Oferuję szeroki wybór powierzchni komercyjnych, które spełnią potrzeby Twojego biznesu. Niezależnie od tego, czy planujesz uruchomić nowy projekt, czy rozszerzyć istniejący, mamy sugestie, które pomogą Ci osiągnąć sukces.',
-    en: 'Looking for the perfect location to open a shop, cafe, restaurant, shawarma or pizzeria in Warsaw? I offer a wide range of commercial premises to suit your business needs. Whether you are planning to launch a new project or expand an existing one, we have offers to help you succeed.',
+    ua: 'Шукаєте ідеальне місце для відкриття магазину, кафе, ресторану, шаурми чи піцерії у Варшаві? Я пропоную широкий вибір комерційних приміщень, що відповідають потребам вашого бізнесу. Незалежно від того, чи ви плануєте запуск нового проекту, чи розширюєте існуючий, в мене є пропозиції, що допоможуть вам досягти успіху.',
+    ru: 'Ищете идеальное место для открытия магазина, кафе, ресторана, шаурмы или пиццерии в Варшаве? Я предлагаю широкий выбор коммерческих помещений, отвечающих потребностям вашего бизнеса. Независимо от того, планируете ли вы запуск нового проекта или расширяете существующий, у меня есть предложения, которые помогут вам добиться успеха.',
+    pl: 'Szukasz idealnego miejsca na otwarcie sklepu, kawiarni, restauracji, shawarmy lub pizzerii w Warszawie? Oferuję szeroki wybór powierzchni komercyjnych, które spełnią potrzeby Twojego biznesu. Niezależnie od tego, czy planujesz uruchomić nowy projekt, czy rozszerzyć istniejący, mam sugestie, które pomogą Ci osiągnąć sukces.',
+    en: 'Are you looking for the perfect location to open a shop, cafe, restaurant, shawarma or pizzeria in Warsaw? I offer a wide range of commercial premises to suit your business needs. Whether you are planning to launch a new project or expand an existing one, I have suggestions that will help you succeed.',
   },
   'service_description-1-3': {
     ua: 'Метраж від 20 до 100 мкв',
@@ -212,10 +212,10 @@ const homeTexts = {
     en: '- Offices for rent in various skyscrapers in Warsaw',
   },
   'service_description-3': {
-    ua: 'Шукаєте престижний офіс у самому серці Варшави, що підкреслить статус та амбіції вашої компанії? Пропоную елітні офісні приміщення в найсучасніших хмарочосах столиці Польщі – місцях, де інновації зустрічаються з комфортом, а бізнес розвивається у динамічному середовищі.',
-    ru: 'Ищете престижный офис в самом сердце Варшавы, что подчеркнет статус и амбиции вашей компании? Предлагаю элитные офисные помещения в самых небоскребах столицы Польши – местах, где инновации встречаются с комфортом, а бизнес развивается в динамичной среде.',
-    pl: 'Szukasz prestiżowego biura w samym sercu Warszawy, które podkreśli status i ambicje Twojej firmy? Oferuję elitarne powierzchnie biurowe w najnowocześniejszych wieżowcach stolicy Polski – miejscach, w których innowacyjność spotyka się z komfortem, a biznes rozwija się w dynamicznym otoczeniu.',
-    en: 'Are you looking for a prestigious office in the heart of Warsaw that will emphasize the status and ambitions of your company? I offer elite office space in the most modern skyscrapers of the Polish capital - places where innovation meets comfort, and business develops in a dynamic environment.',
+    ua: 'Шукаєте престижний офіс у самому серці Варшави, що підкреслить статус та амбіції вашої компанії? Пропоную елітні офісні приміщення в найсучасніших хмарочосах Варшави – місцях, де інновації зустрічаються з комфортом, а бізнес розвивається у динамічному середовищі.',
+    ru: 'Ищете престижный офис в самом сердце Варшавы, что подчеркнет статус и амбиции вашей компании? Предлагаю элитные офисные помещения в самых небоскребах Вашавы – местах, где инновации встречаются с комфортом, а бизнес развивается в динамичной среде.',
+    pl: 'Szukasz prestiżowego biura w samym sercu Warszawy, które podkreśli status i ambicje Twojej firmy? Oferuję elitarne powierzchnie biurowe w najnowocześniejszych wieżowcach Warszawy – miejscach, w których innowacyjność spotyka się z komfortem, a biznes rozwija się w dynamicznym otoczeniu.',
+    en: 'Are you looking for a prestigious office in the heart of Warsaw that will emphasize the status and ambitions of your company? I offer elite office space in the most modern skyscrapers of Warsaw - places where innovation meets comfort, and business develops in a dynamic environment.',
   },
   // 'service_description-3-1': {
   //   ua: 'Легалізація працівників Вашої фірми.',
