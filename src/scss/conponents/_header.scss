@@ -72,7 +72,7 @@
   padding: 10px;
   color: $text-color;
   // font-size: calc(max(19px, min(13px)));
-  font-size: clamp(14px, 4.25vw, 19px);
+  font-size: clamp(12px, 4.25vw, 14px);
   border: 1px solid transparent;
   transition:
     color 250ms linear,

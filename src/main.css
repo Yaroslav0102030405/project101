@@ -148,7 +148,7 @@ img {
   color: #3e4464;
   background-color: #e4c9a2;
   font-size: 15px;
-  font-size: clamp(13px, 5.25vw, 14px);
+  font-size: clamp(12px, 5.25vw, 12px);
   font-weight: 600;
   border: 1px solid #353b5a;
   border-radius: 6px;
@@ -260,7 +260,7 @@ img {
 .header__menu li a {
   padding: 10px;
   color: #f8f9ff;
-  font-size: clamp(14px, 4.25vw, 19px);
+  font-size: clamp(12px, 4.25vw, 14px);
   border: 1px solid transparent;
   transition: color 250ms linear, text-shadow 250ms linear;
 }
@@ -379,7 +379,7 @@ img {
   width: 100%;
   height: 775px;
   z-index: -1;
-  background: linear-gradient(to right, rgba(62, 68, 100, 0.3411764706), rgba(228, 201, 162, 0.231372549)), url(/src/image/hero-2/w1.jpg);
+  background: linear-gradient(to right, rgba(62, 68, 100, 0.3411764706), rgba(228, 201, 162, 0.231372549)), url(/src/image/hero/hero-bg.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -557,9 +557,8 @@ img {
   margin-left: 20px;
   margin-bottom: 0;
   color: #f8f9ff;
-  font-weight: 700;
   font-size: 20px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
   transition: color 250ms linear;
 }
 
@@ -621,7 +620,7 @@ img {
   margin-bottom: 0;
   color: #f8f9ff;
   font-size: 20px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
 }
 
 .about__image img {
@@ -692,7 +691,7 @@ img {
   margin-bottom: 5px;
   color: #3e4464;
   font-size: 20px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
 }
 
 .form__title {
@@ -700,7 +699,7 @@ img {
   margin-bottom: 5px;
   color: #3e4464;
   text-align: center;
-  font-size: clamp(16px, 5.25vw, 19px);
+  font-size: clamp(16px, 5.25vw, 17px);
 }
 
 .form__1-input {
@@ -769,7 +768,7 @@ textarea:focus:valid {
   background-color: #454d71;
   border-radius: 6px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2392156863);
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
   border: 1px solid #f8f9ff;
 }
 
@@ -888,7 +887,7 @@ textarea:focus:valid {
 }
 
 .modal__title {
-  font-size: 30px;
+  font-size: 23px;
   color: #e4c9a2;
   text-align: center;
 }

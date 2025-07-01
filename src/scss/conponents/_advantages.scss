@@ -67,9 +67,9 @@
     margin-left: 20px;
   margin-bottom: 0;
   color: $text-color;
-  font-weight: 700;
+  // font-weight: 700;
   font-size: 20px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
   transition: color 250ms linear;
 }
 
