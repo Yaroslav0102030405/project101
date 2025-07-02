@@ -397,6 +397,7 @@ img {
 }
 
 .hero__content {
+  position: relative;
   place-self: end;
   align-self: center;
   padding: 15px;

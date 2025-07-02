@@ -321,10 +321,10 @@ const homeTexts = {
     en: '- Individual approach: I don`t just look for premises, I study your business, its specifics and goals to find a location that will contribute to your success.',
   },
   about_description6: {
-    ua: 'Повний супровід: Від першої консультації до підписання договору оренди — я поруч на кожному етапі, забезпечуючи прозорість та безпеку угоди.',
-    ru: 'Полное сопровождение: От первой консультации до подписания договора аренды я рядом на каждом этапе, обеспечивая прозрачность и безопасность сделки.',
-    pl: 'Pełne wsparcie: Od pierwszej konsultacji aż do podpisania umowy najmu jestem obecny na każdym etapie, zapewniając przejrzystość i bezpieczeństwo transakcji.',
-    en: 'Full support: From the first consultation to the signing of the lease agreement, I am there at every stage, ensuring transparency and security of the transaction.',
+    ua: '- Повний супровід: Від першої консультації до підписання договору оренди — я поруч на кожному етапі, забезпечуючи прозорість та безпеку угоди.',
+    ru: '- Полное сопровождение: От первой консультации до подписания договора аренды я рядом на каждом этапе, обеспечивая прозрачность и безопасность сделки.',
+    pl: '- Pełne wsparcie: Od pierwszej konsultacji aż do podpisania umowy najmu jestem obecny na każdym etapie, zapewniając przejrzystość i bezpieczeństwo transakcji.',
+    en: '- Full support: From the first consultation to the signing of the lease agreement, I am there at every stage, ensuring transparency and security of the transaction.',
   },
   about_description7: {
     ua: 'Я прагну бути вашим надійним партнером у світі комерційної нерухомості Варшави. Якщо готові розпочати пошук вашого ідеального комерційного простору? Зв`яжиться зі мною!',
