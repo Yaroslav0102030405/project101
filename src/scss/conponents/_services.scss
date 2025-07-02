@@ -152,3 +152,9 @@
   @extend %title
 }
 
+.portfolio-subtitle {
+text-align: center;
+color: $text-color;
+font-size: clamp(14px, 4.25vw, 16px);
+}
+
