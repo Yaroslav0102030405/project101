@@ -769,7 +769,7 @@ textarea:focus:invalid {
 
 input:focus:valid,
 textarea:focus:valid {
-  background-color: #f8f9ff;
+  background-color: rgba(62, 68, 100, 0.1411764706);
   border: solid 2px #18e109;
 }
 
@@ -801,6 +801,16 @@ textarea:focus:valid {
 }
 @media screen and (max-width: 580px) {
   .form__answer-text1 {
+    font-size: 14px;
+  }
+}
+
+.form__answer-text {
+  color: #3e4464;
+  font-size: 20px;
+}
+@media screen and (max-width: 580px) {
+  .form__answer-text {
     font-size: 14px;
   }
 }
