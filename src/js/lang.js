@@ -135,7 +135,7 @@ const homeTexts = {
     en: 'Services',
   },
   'service_pre-title-1': {
-    ua: '- Оренда приміщень під магазин, кафе, ресторан, шаурму, піцерію',
+    ua: '- Оренда приміщень під магазин, кав`ярню, ресторан, шаурму, піцерію',
     ru: '- Аренда помещений под магазин, кафе, ресторан, шаурму, пиццерию',
     pl: '- Wynajem lokalu pod sklep, kawiarnię, restaurację, shawarmę, pizzerię',
     en: '- Rent of premises for a shop, cafe, restaurant, shawarma, pizzeria',
