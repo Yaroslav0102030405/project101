@@ -141,7 +141,7 @@ const homeTexts = {
     en: '- Rent of premises for a shop, cafe, restaurant, shawarma, pizzeria',
   },
   'service_description-1': {
-    ua: 'Шукаєте ідеальне місце для відкриття магазину, кафе, ресторану, шаурми чи піцерії у Варшаві? Я пропоную широкий вибір комерційних приміщень, що відповідають потребам вашого бізнесу. Незалежно від того, чи ви плануєте запуск нового проекту, чи розширюєте існуючий',
+    ua: 'Шукаєте ідеальне місце для відкриття магазину, кав`ярні, ресторану, шаурми чи піцерії у Варшаві? Я пропоную широкий вибір комерційних приміщень, що відповідають потребам вашого бізнесу. Незалежно від того, чи ви плануєте запуск нового проекту, чи розширюєте існуючий',
     ru: 'Ищете идеальное место для открытия магазина, кафе, ресторана, шаурмы или пиццерии в Варшаве? Я предлагаю широкий выбор коммерческих помещений, отвечающих потребностям вашего бизнеса. Независимо от того, планируете ли вы запуск нового проекта или расширяете существующий',
     pl: 'Szukasz idealnego miejsca na otwarcie sklepu, kawiarni, restauracji, shawarmy lub pizzerii w Warszawie? Oferuję szeroki wybór powierzchni komercyjnych, które spełnią potrzeby Twojego biznesu. Niezależnie od tego, czy planujesz uruchomić nowy projekt, czy rozszerzyć istniejący',
     en: 'Looking for the perfect place to open a shop, cafe, restaurant, shawarma or pizzeria in Warsaw? I offer a wide range of commercial premises to suit your business needs. Whether you are planning to launch a new project or expand an existing one',
