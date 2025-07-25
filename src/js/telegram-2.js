@@ -21,7 +21,7 @@ document.getElementById('form2').addEventListener('submit', function (e) {
       parse_mode: 'html',
       text: message1,
     })
-    .then(res => {
+    .then((res) => {
       this.name.value = '';
       this.tel.value = '';
       this.comment.value = '';
@@ -29,7 +29,7 @@ document.getElementById('form2').addEventListener('submit', function (e) {
       formText.classList.add('form__none2');
       formBlock.classList.add('form_answer-block2');
     })
-    .catch(error => {
+    .catch((error) => {
       console.log(error);
     })
     .finally(() => {

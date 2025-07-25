@@ -11,8 +11,8 @@ const options = {
   threshold: 0.2,
 };
 
-const callback = entries => {
-  entries.forEach(entry => {
+const callback = (entries) => {
+  entries.forEach((entry) => {
     if (entry.isIntersecting) {
       stack.push(entry.target);
 
@@ -33,7 +33,7 @@ const elementsToTrack = document.querySelectorAll(
   '[data-aos]:not([data-aos-delay])',
 );
 
-elementsToTrack.forEach(element => {
+elementsToTrack.forEach((element) => {
   observer.observe(element);
 });
 

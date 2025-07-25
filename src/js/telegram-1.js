@@ -20,7 +20,7 @@ document.getElementById('form1').addEventListener('submit', function (e) {
       parse_mode: 'html',
       text: message,
     })
-    .then(res => {
+    .then((res) => {
       this.name.value = '';
       this.tel.value = '';
       this.comment.value = '';
@@ -28,7 +28,7 @@ document.getElementById('form1').addEventListener('submit', function (e) {
       formText1.classList.add('form__none1');
       formBlock1.classList.add('form_answer-block1');
     })
-    .catch(error => {
+    .catch((error) => {
       console.log(error);
     })
     .finally(() => {

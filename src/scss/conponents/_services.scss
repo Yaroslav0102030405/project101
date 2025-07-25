@@ -5,6 +5,7 @@
 
 .service__title {
   @extend %title;
+  cursor: text;
 }
 
 .service__list {
@@ -45,12 +46,14 @@
   color: $accent-text;
   font-size: 16px;
   text-transform: uppercase;
+  cursor: text;
 }
 
 .service__description {
   margin-bottom: 0;
   color: $text-color;
   @extend %font__size;
+  cursor: text;
 }
 
 .service__price {
@@ -149,12 +152,13 @@
 }
 
 .portfolio-title {
-  @extend %title
+  @extend %title;
+  cursor: text;
 }
 
 .portfolio-subtitle {
-text-align: center;
-color: $text-color;
-font-size: clamp(14px, 4.25vw, 16px);
+  text-align: center;
+  color: $text-color;
+  font-size: clamp(14px, 4.25vw, 16px);
+  cursor: text;
 }
-

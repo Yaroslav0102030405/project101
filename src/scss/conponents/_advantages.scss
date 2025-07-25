@@ -4,9 +4,9 @@
   background-color: $bg-2;
 }
 
-
 .advantages__title {
   @extend %title;
+  cursor: text;
 }
 
 .advantages__list {
@@ -65,13 +65,14 @@
 .advantages__text {
   // @extend %font__size;
   text-align: left;
-    margin-left: 20px;
+  margin-left: 20px;
   margin-bottom: 0;
   color: $text-color;
   // font-weight: 700;
   font-size: 20px;
   font-size: clamp(14px, 4.25vw, 16px);
   transition: color 250ms linear;
+  cursor: text;
 }
 
 .advantages__numbers {
@@ -83,7 +84,6 @@
 
 .d {
   border: none;
-padding: 18px;
-width: 70px;
+  padding: 18px;
+  width: 70px;
 }
-

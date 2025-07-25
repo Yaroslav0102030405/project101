@@ -9,12 +9,23 @@ body {
 
   // cursor: url("../images/cursor/cursor1.png"), auto;
   // font-family: Roboto, sans-serif;
-  font-family: Bicubik, -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    Bicubik,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Roboto',
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
   font-size: 16px;
   line-height: 1.4;
   cursor: url('image/cursor/cursor-1.png'), auto;
+  // cursor: url('image/cursor/curs-1.ani'), auto;
 }
 
 .show-modal {
@@ -26,5 +37,5 @@ a {
 }
 
 .img {
-  filter: grayscale(51%); 
+  filter: grayscale(51%);
 }

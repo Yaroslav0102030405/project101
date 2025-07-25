@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @import '/node_modules/modern-normalize/modern-normalize.css';
 @font-face {
-  font-family: "Bicubik";
-  src: url("./fonts/bicubik/bicubik.woff2") format("woff2");
-  src: url("./fonts/bicubik/bicubik.woff") format("woff");
-  src: url("./fonts/bicubik/bicubik.ttf") format("ttf");
+  font-family: 'Bicubik';
+  src: url('./fonts/bicubik/bicubik.woff2') format('woff2');
+  src: url('./fonts/bicubik/bicubik.woff') format('woff');
+  src: url('./fonts/bicubik/bicubik.ttf') format('ttf');
   font-style: normal;
   font-weight: normal;
 }
@@ -37,13 +37,13 @@
 .splide__arrow {
   opacity: 1;
   background: #e4c9a2;
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .splide__pagination__page {
   opacity: 1;
   background: #e4c9a2;
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .splide__pagination__page.is-active {
@@ -57,10 +57,22 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Bicubik, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    Bicubik,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Roboto',
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  cursor: url("image/cursor/cursor-1.png"), auto;
+  cursor: url('image/cursor/cursor-1.png'), auto;
 }
 
 .show-modal {
@@ -68,7 +80,7 @@ body {
 }
 
 a {
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .img {
@@ -145,7 +157,9 @@ img {
   }
 }
 
-.service__button, .expand__button, .button {
+.service__button,
+.expand__button,
+.button {
   width: 100%;
   max-width: 287px;
   padding: 15px;
@@ -157,19 +171,28 @@ img {
   border: 1px solid #353b5a;
   border-radius: 6px;
   text-transform: uppercase;
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
   transform: translateY(0);
-  transition: transform 250ms linear, color 250ms linear, background-color 250ms linear;
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 }
 
 .service__button:hover,
-.service__hover:focus, .expand__button:hover,
-.expand__button:focus, .button:hover,
+.service__hover:focus,
+.expand__button:hover,
+.expand__button:focus,
+.button:hover,
 .button:focus {
   transform: translateY(-3px);
 }
 
-.contacts__title, .about__title, .advantages__title, .portfolio-title, .service__title {
+.contacts__title,
+.about__title,
+.advantages__title,
+.portfolio-title,
+.service__title {
   margin-bottom: 30px;
   text-align: center;
   color: #f8f9ff;
@@ -177,18 +200,32 @@ img {
   text-transform: uppercase;
 }
 @media screen and (max-width: 580px) {
-  .contacts__title, .about__title, .advantages__title, .portfolio-title, .service__title {
+  .contacts__title,
+  .about__title,
+  .advantages__title,
+  .portfolio-title,
+  .service__title {
     margin-bottom: 20px;
     text-transform: uppercase;
   }
 }
 
-.footer, .contacts, .about, .advantages, .p, .service {
+.footer,
+.contacts,
+.about,
+.advantages,
+.p,
+.service {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 @media screen and (max-width: 580px) {
-  .footer, .contacts, .about, .advantages, .p, .service {
+  .footer,
+  .contacts,
+  .about,
+  .advantages,
+  .p,
+  .service {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -201,7 +238,9 @@ img {
   margin-top: auto;
 }
 
-.form__logo-3, .form__logo-2, .form__logo-1 {
+.form__logo-3,
+.form__logo-2,
+.form__logo-1 {
   display: inline-flex;
   align-items: center;
   color: #e4c9a2;
@@ -209,7 +248,10 @@ img {
   font-size: clamp(14px, 4.25vw, 20px);
 }
 
-.service__price-2, .service__price-1, .service__price, .service__description {
+.service__price-2,
+.service__price-1,
+.service__price,
+.service__description {
   font-size: clamp(14px, 4.25vw, 16px);
 }
 
@@ -256,8 +298,10 @@ img {
   .header__menu {
     display: block;
     -webkit-backdrop-filter: blur(30px);
-            backdrop-filter: blur(30px);
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    backdrop-filter: blur(30px);
+    box-shadow:
+      rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
 }
 
@@ -266,7 +310,9 @@ img {
   color: #f8f9ff;
   font-size: clamp(12px, 4.25vw, 14px);
   border: 1px solid transparent;
-  transition: color 250ms linear, text-shadow 250ms linear;
+  transition:
+    color 250ms linear,
+    text-shadow 250ms linear;
 }
 @media screen and (max-width: 837px) {
   .header__menu li a {
@@ -337,13 +383,18 @@ img {
 
 .flare-button:after {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 1.25rem;
   height: 12.5rem;
   margin-left: 3.125rem;
   background: #fff;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.5) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
   left: -2.5rem;
   top: -6.25rem;
   z-index: 1;
@@ -372,7 +423,10 @@ img {
   background-color: #353b5a;
   color: #e4c9a2;
   transform: translateY(0);
-  transition: transform 250ms linear, color 250ms linear, background-color 250ms linear;
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 }
 
 .hero__overlay {
@@ -383,7 +437,13 @@ img {
   width: 100%;
   height: 775px;
   z-index: -1;
-  background: linear-gradient(to right, rgba(62, 68, 100, 0.3411764706), rgba(228, 201, 162, 0.231372549)), url(/src/image/hero/h-15.jpg);
+  background:
+    linear-gradient(
+      to right,
+      rgba(62, 68, 100, 0.3411764706),
+      rgba(228, 201, 162, 0.231372549)
+    ),
+    url(/src/image/hero/h-15.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -405,7 +465,9 @@ img {
   border-radius: 6px;
   border: 1px solid #f8f9ff;
   background-color: #353b5a;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .hero__maps {
@@ -868,7 +930,10 @@ textarea:focus:valid {
   fill: #353b5a;
   border-radius: 50%;
   transform: translateY(0);
-  transition: transform 250ms linear, color 250ms linear, background-color 250ms linear;
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 }
 
 .icon:hover,
@@ -926,7 +991,7 @@ textarea:focus:valid {
   border-radius: 6px;
   border: none;
   color: #3e4464;
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
   transition: background-color 250ms linear;
 }
 
@@ -1008,10 +1073,10 @@ textarea:focus:valid {
   border: 1px solid #e4c9a2;
   border-radius: 50%;
   padding: 10px;
-  cursor: url("image/cursor/cursor-2.png"), auto;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .form-2 {
   max-width: 360px;
   min-width: 280px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

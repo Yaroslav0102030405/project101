@@ -38,7 +38,7 @@ const homeTexts = {
     en: 'A case I closed for a client',
   },
 
-   'portfolio-title-2': {
+  'portfolio-title-2': {
     ua: 'Вимоги: сучасний, з меблями, в центрі міста та з виглядом на Палац Культури і Науки',
     ru: 'Требования: современный, с мебелью, в центре города и с видом на Дворец Культуры и Науки',
     pl: 'Wymagania: nowoczesne, umeblowane, w centrum miasta i z widokiem na Pałac Kultury i Nauki',
@@ -128,7 +128,7 @@ const homeTexts = {
     pl: 'Lub zadzwoń +48 735 775 810',
     en: 'Or call +48 735 775 810',
   },
-  'service_title': {
+  service_title: {
     ua: 'Послуги',
     ru: 'Услуги',
     pl: 'Usługi',
@@ -375,7 +375,7 @@ const homeTexts = {
     en: 'Send an enquiry',
   },
   form_title2: {
-   ua: 'Залиште свої контактні дані для зворотного зв`язку',
+    ua: 'Залиште свої контактні дані для зворотного зв`язку',
     ru: 'Оставьте свои контактные данные для обратной связи',
     pl: 'Zostaw swoje dane kontaktowe, abyśmy mogli przesłać Ci opinię',
     en: 'Leave your contact details for feedback',
@@ -469,8 +469,8 @@ function changeLang() {
 changeLang();
 
 // Вешаем обработчики на каждую кнопку
-langButtons.forEach(btn => {
-  btn.addEventListener('click', event => {
+langButtons.forEach((btn) => {
+  btn.addEventListener('click', (event) => {
     if (!event.target.classList.contains('header__btn_active')) {
       currentLang = event.target.dataset.btn;
       // localStorage.setItem('language', event.target.dataset.btn);
@@ -483,7 +483,7 @@ langButtons.forEach(btn => {
 
 // Сброс активного класса у переданного массива элементов
 function resetActiveClass(arr, activeClass) {
-  arr.forEach(elem => {
+  arr.forEach((elem) => {
     elem.classList.remove(activeClass);
   });
 }
@@ -524,7 +524,7 @@ function resetActiveClass(arr, activeClass) {
 // Проверка языка браузера
 function checkBrowserLang() {
   const navLang = navigator.language.slice(0, 2).toLowerCase();
-  const result = allLangs.some(elem => {
+  const result = allLangs.some((elem) => {
     return elem === navLang;
   });
   if (result) {
