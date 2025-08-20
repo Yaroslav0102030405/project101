@@ -129,10 +129,10 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   service_title: {
-    ua: 'Послуги',
-    ru: 'Услуги',
-    pl: 'Usługi',
-    en: 'Services',
+    ua: 'Мої послуги',
+    ru: 'Мои услуги',
+    pl: 'My usługi',
+    en: 'My services',
   },
   'service_pre-title-1': {
     ua: '- Оренда приміщень під магазин, кав`ярню, ресторан, шаурму, піцерію',
@@ -141,10 +141,10 @@ const homeTexts = {
     en: '- Rent of premises for a shop, cafe, restaurant, shawarma, pizzeria',
   },
   'service_description-1': {
-    ua: 'Шукаєте ідеальне місце для відкриття магазину, кав`ярні, ресторану, шаурми чи піцерії у Варшаві? Я пропоную широкий вибір комерційних приміщень, що відповідають потребам вашого бізнесу. Незалежно від того, чи ви плануєте запуск нового проекту, чи розширюєте існуючий',
-    ru: 'Ищете идеальное место для открытия магазина, кафе, ресторана, шаурмы или пиццерии в Варшаве? Я предлагаю широкий выбор коммерческих помещений, отвечающих потребностям вашего бизнеса. Независимо от того, планируете ли вы запуск нового проекта или расширяете существующий',
-    pl: 'Szukasz idealnego miejsca na otwarcie sklepu, kawiarni, restauracji, shawarmy lub pizzerii w Warszawie? Oferuję szeroki wybór powierzchni komercyjnych, które spełnią potrzeby Twojego biznesu. Niezależnie od tego, czy planujesz uruchomić nowy projekt, czy rozszerzyć istniejący',
-    en: 'Looking for the perfect place to open a shop, cafe, restaurant, shawarma or pizzeria in Warsaw? I offer a wide range of commercial premises to suit your business needs. Whether you are planning to launch a new project or expand an existing one',
+    ua: 'В мене є широкий вибір різних комерційних приміщень і я швидко знайду вам ідеальну локацію.',
+    ru: 'У меня есть широкий выбор разніх коммерческих помещений и я быстро найду для вас идеальную локацию.',
+    pl: 'Oferuję szeroki wybór powierzchni komercyjnych, które spełnią potrzeby Twojego biznesu.',
+    en: 'I offer a wide range of commercial premises to suit your business needs.',
   },
   'service_description-1-3': {
     ua: 'Метраж від 20 до 100 мкв',
@@ -177,10 +177,10 @@ const homeTexts = {
     en: '- Office rental for startups and growing companies',
   },
   'service_description-2': {
-    ua: 'Шукаєте ефективне та зручне офісне рішення у Варшаві для вашого стартапу чи компанії, що активно розвивається? Я пропоную гнучкі умови оренди малих та середніх офісних приміщень, які ідеально відповідають потребам динамічного бізнесу',
-    ru: 'Ищете эффективное и удобное офисное решение в Варшаве для вашего стартапа или активно развивающейся компании? Я предлагаю гибкие условия аренды малых и средних офисных помещений, идеально отвечающих потребностям динамичного бизнеса',
-    pl: 'Szukasz wydajnego i wygodnego rozwiązania biurowego w Warszawie dla swojego startupu lub szybko rozwijającej się firmy? Oferuję elastyczne warunki wynajmu małych i średnich powierzchni biurowych, które idealnie odpowiadają potrzebom dynamicznego biznesu',
-    en: 'Are you looking for an efficient and convenient office solution in Warsaw for your startup or rapidly growing company? I offer flexible rental conditions for small and medium-sized office spaces that perfectly meet the needs of a dynamic business',
+    ua: 'Маю гнучкі умови для довгострокової оренди малих та середніх офісних приміщень.',
+    ru: 'Имею гибкие условия для долгосрочной аренды малых и средних офисных помещений.',
+    pl: 'Oferuję elastyczne warunki wynajmu małych i średnich powierzchni biurowych, które idealnie odpowiadają potrzebom dynamicznego biznesu',
+    en: 'I offer flexible rental conditions for small and medium-sized office spaces that perfectly meet the needs of a dynamic business',
   },
   'service_description-2-4': {
     ua: 'Метраж від 100 до 1000 мкв',
@@ -213,10 +213,10 @@ const homeTexts = {
     en: '- Office rental for large companies in Warsaw skyscrapers',
   },
   'service_description-3': {
-    ua: 'Шукаєте престижний офіс у самому серці Варшави, що підкреслить статус та амбіції вашої компанії? Пропоную елітні офісні приміщення в найсучасніших хмарочосах Варшави – місцях, де інновації зустрічаються з комфортом, а бізнес розвивається у динамічному середовищі',
-    ru: 'Ищете престижный офис в самом сердце Варшавы, что подчеркнет статус и амбиции вашей компании? Предлагаю элитные офисные помещения в самых небоскребах Вашавы – местах, где инновации встречаются с комфортом, а бизнес развивается в динамичной среде',
-    pl: 'Szukasz prestiżowego biura w samym sercu Warszawy, które podkreśli status i ambicje Twojej firmy? Oferuję elitarne powierzchnie biurowe w najnowocześniejszych wieżowcach Warszawy – miejscach, w których innowacyjność spotyka się z komfortem, a biznes rozwija się w dynamicznym otoczeniu',
-    en: 'Are you looking for a prestigious office in the heart of Warsaw that will emphasize the status and ambitions of your company? I offer elite office space in the most modern skyscrapers of Warsaw - places where innovation meets comfort, and business develops in a dynamic environment',
+    ua: 'Пропоную елітні офісні приміщення в найсучасніших хмарочосах Варшави з красивим видом на місто.',
+    ru: 'Предлагаю элитные офисные помещения в самых небоскребах Вашавы с красивым видом на город.',
+    pl: 'Oferuję elitarne powierzchnie biurowe w najnowocześniejszych wieżowcach Warszawy.',
+    en: 'I offer elite office space in the most modern skyscrapers of Warsaw.',
   },
   'service_description-3-5': {
     ua: 'Метраж від 500 до 10 000 мкв',
@@ -249,8 +249,8 @@ const homeTexts = {
     en: 'Advantages of working with me',
   },
   'advantages_pre-title-1': {
-    ua: 'Я знаю всі нюанси на ринку комерційної нерухомості Варшави',
-    ru: 'Я знаю все нюансы на рынке коммерческой недвижимости Варшавы',
+    ua: 'Знаю всі нюанси на ринку комерційної нерухомості Варшави',
+    ru: 'Знаю все нюансы на рынке коммерческой недвижимости Варшавы',
     pl: 'Znam wszystkie niuanse warszawskiego rynku nieruchomości komercyjnych',
     en: 'I know all the nuances of the Warsaw commercial real estate market',
   },
@@ -297,10 +297,10 @@ const homeTexts = {
     en: 'Hello! My name is Yurii Bukhtii.',
   },
   about_description2: {
-    ua: 'Я професіонал, якій спеціалізується на оренді комерційної нерухомості у Варшаві. Моя місія — допомагати міжнародному бізнесу знайти ідеальне приміщення для успішного розвитку в Варшаві. Я розумію унікальні потреби підприємців, від стартапів, які шукають своє перше приміщення або офіс, до великих компаній, що прагнуть розширити свою присутність у престижних хмарочосах Варшави. Я маю досвід і ресурси, щоб знайти саме те, що вам потрібно.',
-    ru: 'Я профессионал, которому специализируется на аренде коммерческой недвижимости в Варшаве. Моя миссия — помогать международному бизнесу найти идеальное помещение для успешного развития в Варшаве. Я понимаю уникальные потребности предпринимателей, от стартапов, ищущих свое первое помещение или офис до крупных компаний, стремящихся расширить свое присутствие в престижных небоскребах Варшавы. У меня есть опыт и ресурсы, чтобы найти именно то, что вам нужно.',
-    pl: 'Jestem profesjonalistą specjalizującym się w wynajmie nieruchomości komercyjnych w Warszawie. Moją misją jest pomoc międzynarodowym firmom w znalezieniu idealnej przestrzeni do udanego rozwoju w Warszawie. Rozumiem wyjątkowe potrzeby przedsiębiorców, od startupów poszukujących swojej pierwszej przestrzeni lub biura, po duże firmy pragnące rozszerzyć swoją obecność w prestiżowych warszawskich wieżowcach. Posiadam doświadczenie i zasoby pozwalające znaleźć dokładnie to, czego potrzebujesz.',
-    en: 'I am a professional specializing in commercial real estate leasing in Warsaw. My mission is to help international businesses find the perfect space to thrive in Warsaw. I understand the unique needs of entrepreneurs, from startups looking for their first space or office to large companies looking to expand their presence in Warsaw`s prestigious skyscrapers. I have the experience and resources to find exactly what you need.',
+    ua: 'Я професіонал, якій спеціалізується на оренді комерційної нерухомості у Варшаві. Моя місія — допомагати міжнародному бізнесу знайти ідеальне приміщення для успішного розвитку в Варшаві. Я розумію унікальні потреби підприємців, від стартапів, які шукають своє перше приміщення або офіс, до великих компаній, що прагнуть розширити свою присутність у престижних хмарочосах Варшави.',
+    ru: 'Я профессионал, которому специализируется на аренде коммерческой недвижимости в Варшаве. Моя миссия — помогать международному бизнесу найти идеальное помещение для успешного развития в Варшаве. Я понимаю уникальные потребности предпринимателей, от стартапов, ищущих свое первое помещение или офис до крупных компаний, стремящихся расширить свое присутствие в престижных небоскребах Варшавы. ',
+    pl: 'Jestem profesjonalistą specjalizującym się w wynajmie nieruchomości komercyjnych w Warszawie. Moją misją jest pomoc międzynarodowym firmom w znalezieniu idealnej przestrzeni do udanego rozwoju w Warszawie. Rozumiem wyjątkowe potrzeby przedsiębiorców, od startupów poszukujących swojej pierwszej przestrzeni lub biura, po duże firmy pragnące rozszerzyć swoją obecność w prestiżowych warszawskich wieżowcach.',
+    en: 'I am a professional specializing in commercial real estate leasing in Warsaw. My mission is to help international businesses find the perfect space to thrive in Warsaw. I understand the unique needs of entrepreneurs, from startups looking for their first space or office to large companies looking to expand their presence in Warsaw`s prestigious skyscrapers.',
   },
   about_description3: {
     ua: 'Мої ключові переваги:',
